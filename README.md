@@ -1,5 +1,10 @@
 # ⚡ Urja Suraksha & Power Grid Intelligence Dashboard — Bharat
 
+## 🌐 Live Demo
+**[https://bharat-grid-intelligence.netlify.app](https://bharat-grid-intelligence.netlify.app)**
+
+
+
 A Bloomberg-style, full-stack national power grid monitoring dashboard with real-time scenario simulation, risk modeling, and weather integration.
 
 ---
