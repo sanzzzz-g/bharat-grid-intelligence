@@ -1,0 +1,79 @@
+{
+  "hourlyDemand": [
+    148, 142, 138, 135, 132, 136, 145, 162, 178, 192, 205, 214,
+    218, 220, 215, 210, 208, 218, 235, 248, 242, 228, 210, 182
+  ],
+  "hourlySupply": [
+    152, 148, 144, 140, 138, 142, 150, 168, 182, 198, 210, 220,
+    224, 225, 220, 215, 212, 222, 238, 252, 246, 232, 215, 188
+  ],
+  "monthlyPeakDemand": {
+    "2023": [188, 182, 195, 220, 248, 265, 272, 268, 245, 225, 205, 215],
+    "2024": [195, 188, 202, 228, 255, 272, 285, 280, 252, 232, 212, 222],
+    "2025": [202, 195, 210, 235, 262, 280, 295, 290, 260, 240, 220, 230]
+  },
+  "energyMix": {
+    "coal": 48,
+    "gas": 8,
+    "nuclear": 3,
+    "hydro": 11,
+    "solar": 18,
+    "wind": 10,
+    "other": 2
+  },
+  "scenarios": {
+    "baseline": {
+      "totalGeneration": 218,
+      "totalDemand": 208,
+      "reserveMargin": 4.8,
+      "renewableShare": 29,
+      "congestionIndex": 0.52,
+      "riskScore": 42
+    },
+    "gas_disruption": {
+      "totalGeneration": 204,
+      "totalDemand": 208,
+      "reserveMargin": -1.9,
+      "renewableShare": 29,
+      "congestionIndex": 0.78,
+      "riskScore": 74,
+      "description": "Gas supply disruption reduces thermal generation by 14 GW"
+    },
+    "heatwave": {
+      "totalGeneration": 218,
+      "totalDemand": 242,
+      "reserveMargin": -9.9,
+      "renewableShare": 26,
+      "congestionIndex": 0.88,
+      "riskScore": 88,
+      "description": "Heatwave drives cooling demand surge of 34 GW"
+    },
+    "coal_outage": {
+      "totalGeneration": 195,
+      "totalDemand": 208,
+      "reserveMargin": -6.2,
+      "renewableShare": 35,
+      "congestionIndex": 0.72,
+      "riskScore": 76,
+      "description": "Major coal plant outages reduce thermal capacity by 23 GW"
+    },
+    "renewable_surge": {
+      "totalGeneration": 235,
+      "totalDemand": 208,
+      "reserveMargin": 12.9,
+      "renewableShare": 52,
+      "congestionIndex": 0.38,
+      "riskScore": 24,
+      "description": "Ideal weather conditions boost renewable output significantly"
+    },
+    "festival_demand": {
+      "totalGeneration": 218,
+      "totalDemand": 238,
+      "reserveMargin": -8.4,
+      "renewableShare": 28,
+      "congestionIndex": 0.92,
+      "riskScore": 82,
+      "description": "Festival season demand surge across major cities"
+    }
+  }
+}
