@@ -1,4 +1,4 @@
-# ⚡ Energy Security & Power Grid Intelligence Dashboard — India
+# ⚡ Urja Suraksha & Power Grid Intelligence Dashboard — Bharat
 
 A Bloomberg-style, full-stack national power grid monitoring dashboard with real-time scenario simulation, risk modeling, and weather integration.
 
