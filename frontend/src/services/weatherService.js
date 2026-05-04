@@ -23,7 +23,7 @@ export async function fetchCityWeather(city) {
 
   try {
     const response = await weatherApi.getWeather(city);
-    const data = response.data;
+    const data = response.data.data;
 
     cache.set(city, { data, timestamp: now });
     return data;
