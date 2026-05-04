@@ -1,0 +1,43 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/api/weather/*"
+  to = "/.netlify/functions/weather/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/grid/metrics"
+  to = "/.netlify/functions/grid-metrics"
+  status = 200
+
+[[redirects]]
+  from = "/api/grid/states"
+  to = "/.netlify/functions/grid-states"
+  status = 200
+
+[[redirects]]
+  from = "/api/grid/demand"
+  to = "/.netlify/functions/grid-demand"
+  status = 200
+
+[[redirects]]
+  from = "/api/grid/generation"
+  to = "/.netlify/functions/grid-generation"
+  status = 200
+
+[[redirects]]
+  from = "/api/grid/risk"
+  to = "/.netlify/functions/grid-risk"
+  status = 200
+
+[[redirects]]
+  from = "/api/grid/scenario"
+  to = "/.netlify/functions/grid-scenario"
+  status = 200
+
+[[redirects]]
+  from = "/api/health"
+  to = "/.netlify/functions/health"
+  status = 200
