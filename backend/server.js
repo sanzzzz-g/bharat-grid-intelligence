@@ -12,7 +12,8 @@ app.use(cors({
     'http://localhost:5173',
     'http://localhost:5174',
     'http://localhost:3000',
-    'https://bharat-grid-intelligence.netlify.app'
+    'https://bharat-grid-intelligence.netlify.app',
+    process.env.FRONTEND_URL  // ← set this in Render's environment variables
   ],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type'],
