@@ -1,7 +1,7 @@
 # ⚡ Urja Suraksha & Power Grid Intelligence Dashboard — Bharat
 
 ## 🌐 Live Demo
-**[https://bharat-grid-intelligence.netlify.app](https://bharat-grid-intelligence.netlify.app)**
+**https://bharat-grid-intelligence-2.onrender.com/**
 
 
 
